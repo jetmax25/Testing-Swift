@@ -46,5 +46,47 @@ class TestingSwiftTests: XCTestCase {
         hater.hadAGoodDay()
         XCTAssertFalse(hater.hating)
     }
+    
+    func createTestUser(projects: Int, itemsPerProject: Int) -> User {
+        let user = User(name: UUID().uuidString)
+        XCTAssertEqual(user.projects.count, 0)
+        
+        for album in 1...projects {
+            let project = Project(name: "Album #\(album)")
+            XCTAssertEqual(project.toDoItems.count, 0)
+            user.add(project: project)
+            
+            for song in 1...itemsPerProject {
+                let item = ToDoItem(name: "Write song #\(song)")
+                project.add(item: item)
+            }
+        }
+        return user
+    }
+    
+    func verifyUser(_ user: User, expectedProjectCount: Int, expectedTaskCount: Int, file: StaticString = #file, line: UInt = #line) {
+        XCTAssertEqual(user.projects.count, expectedProjectCount, file: file, line: line)
+        XCTAssertEqual(user.numTasks, expectedTaskCount, file: file, line: line)
+    }
+    
+    func testUserHasCorrectProjectCount() {
+        let numProjects = 3
+        let itemsPerProject = 10
+        
+        let sut = createTestUser(projects: numProjects, itemsPerProject: itemsPerProject)
+        
+        verifyUser(sut, expectedProjectCount: numProjects, expectedTaskCount: numProjects * itemsPerProject)
+    }
+    
+    func testUserAddsAllProjectsAndItems() {
+        let numProjects = 3
+        let itemsPerProject = 10
+        let sut = createTestUser(projects: numProjects, itemsPerProject: itemsPerProject)
+        
+        let rowTitle = sut.outstandingTasksString
+    
+        verifyUser(sut, expectedProjectCount: numProjects, expectedTaskCount: numProjects * itemsPerProject)
+        XCTAssertEqual(rowTitle, "30 Items")
+    }
 
 }
