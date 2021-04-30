@@ -12,4 +12,11 @@
         * [Notifications](/Notes/Chapter%20Notes/CH2.md#notifications)
         * [Performance Testing](/Notes/Chapter%20Notes/CH2.md#performance-testing)
         * [Code Coverage](/Notes/Chapter%20Notes/CH2.md#code-coverage)
-## Concepts
+3. [Test Doubles](/Notes/Chapter%20Notes/CH3.md#test-doubles)
+    * [Terminology](/Notes/Chapter%20Notes/CH3.md#terminology)
+    * [Best Practices](/Notes/Chapter%20Notes/CH3.md#best-practices)
+    * [Dependency Injection Types](/Notes/Chapter%20Notes/CH3.md#dependency-injection-types)
+    * [Coordinators](/Notes/Chapter%20Notes/CH3.md#coordinators)
+    * [Mocking](/Notes/Chapter%20Notes/CH3.md#mocking)
+        * [Partial Mock](/Notes/Chapter%20Notes/CH3.md#partial-mock)
+    * [Test Data](/Notes/Chapter%20Notes/CH3.md#test-data)

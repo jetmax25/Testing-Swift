@@ -9,6 +9,17 @@
 /* Begin PBXBuildFile section */
 		525B77FC2639F8B50045DB9A /* AsynchronousTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B77FB2639F8B50045DB9A /* AsynchronousTests.swift */; };
 		525B78052639F93B0045DB9A /* PrimeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B78042639F93B0045DB9A /* PrimeCalculator.swift */; };
+		52799506263B3B340067C09A /* DIUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52799505263B3B340067C09A /* DIUser.swift */; };
+		52799508263B3B430067C09A /* DIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52799507263B3B430067C09A /* DIApp.swift */; };
+		5279950C263B3D9D0067C09A /* DirectInjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5279950B263B3D9D0067C09A /* DirectInjectTests.swift */; };
+		5279950E263B4BCF0067C09A /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5279950D263B4BCF0067C09A /* ShareView.swift */; };
+		52799510263B50FA0067C09A /* URLHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5279950F263B50FA0067C09A /* URLHandler.swift */; };
+		52799512263B540D0067C09A /* CoordinatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52799511263B540D0067C09A /* CoordinatedViewController.swift */; };
+		52799515263B55430067C09A /* Buyer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52799514263B55430067C09A /* Buyer.swift */; };
+		52799517263B55950067C09A /* MockingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52799516263B55940067C09A /* MockingTests.swift */; };
+		52799519263B8A7C0067C09A /* PowerMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52799518263B8A7C0067C09A /* PowerMonitor.swift */; };
+		5279951C263B93090067C09A /* PreConUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5279951B263B93090067C09A /* PreConUser.swift */; };
+		5279951F263B94C00067C09A /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5279951E263B94C00067C09A /* News.swift */; };
 		529E0308263AECD600933D74 /* LinkedInUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E0307263AECD600933D74 /* LinkedInUser.swift */; };
 		52A141332639C4CC00C074E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A141322639C4CC00C074E7 /* AppDelegate.swift */; };
 		52A141352639C4CC00C074E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A141342639C4CC00C074E7 /* SceneDelegate.swift */; };
@@ -59,6 +70,17 @@
 		525B77FB2639F8B50045DB9A /* AsynchronousTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsynchronousTests.swift; sourceTree = "<group>"; };
 		525B77FD2639F8B50045DB9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		525B78042639F93B0045DB9A /* PrimeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeCalculator.swift; sourceTree = "<group>"; };
+		52799505263B3B340067C09A /* DIUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIUser.swift; sourceTree = "<group>"; };
+		52799507263B3B430067C09A /* DIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIApp.swift; sourceTree = "<group>"; };
+		5279950B263B3D9D0067C09A /* DirectInjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectInjectTests.swift; sourceTree = "<group>"; };
+		5279950D263B4BCF0067C09A /* ShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareView.swift; sourceTree = "<group>"; };
+		5279950F263B50FA0067C09A /* URLHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLHandler.swift; sourceTree = "<group>"; };
+		52799511263B540D0067C09A /* CoordinatedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatedViewController.swift; sourceTree = "<group>"; };
+		52799514263B55430067C09A /* Buyer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buyer.swift; sourceTree = "<group>"; };
+		52799516263B55940067C09A /* MockingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockingTests.swift; sourceTree = "<group>"; };
+		52799518263B8A7C0067C09A /* PowerMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerMonitor.swift; sourceTree = "<group>"; };
+		5279951B263B93090067C09A /* PreConUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreConUser.swift; sourceTree = "<group>"; };
+		5279951E263B94C00067C09A /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		529E0307263AECD600933D74 /* LinkedInUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedInUser.swift; sourceTree = "<group>"; };
 		52A1412F2639C4CC00C074E7 /* TestingSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A141322639C4CC00C074E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -135,6 +157,42 @@
 			path = Async;
 			sourceTree = "<group>";
 		};
+		52799504263B3B210067C09A /* Direct Injection */ = {
+			isa = PBXGroup;
+			children = (
+				52799505263B3B340067C09A /* DIUser.swift */,
+				52799507263B3B430067C09A /* DIApp.swift */,
+				5279950D263B4BCF0067C09A /* ShareView.swift */,
+				5279950F263B50FA0067C09A /* URLHandler.swift */,
+				52799511263B540D0067C09A /* CoordinatedViewController.swift */,
+			);
+			path = "Direct Injection";
+			sourceTree = "<group>";
+		};
+		52799513263B55340067C09A /* Mocking */ = {
+			isa = PBXGroup;
+			children = (
+				52799514263B55430067C09A /* Buyer.swift */,
+			);
+			path = Mocking;
+			sourceTree = "<group>";
+		};
+		5279951A263B92FB0067C09A /* Preconditions */ = {
+			isa = PBXGroup;
+			children = (
+				5279951B263B93090067C09A /* PreConUser.swift */,
+			);
+			path = Preconditions;
+			sourceTree = "<group>";
+		};
+		5279951D263B94B00067C09A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5279951E263B94C00067C09A /* News.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		529E0306263AECBA00933D74 /* Notification */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +246,8 @@
 				52A1417B2639D23800C074E7 /* ConvertTests.swift */,
 				52A141802639DFD400C074E7 /* LifecycleTests.swift */,
 				52A141A62639EEF200C074E7 /* ThrowingTests.swift */,
+				5279950B263B3D9D0067C09A /* DirectInjectTests.swift */,
+				52799516263B55940067C09A /* MockingTests.swift */,
 			);
 			path = TestingSwiftTests;
 			sourceTree = "<group>";
@@ -204,11 +264,16 @@
 		52A1416A2639D1BD00C074E7 /* Custom Files */ = {
 			isa = PBXGroup;
 			children = (
+				5279951D263B94B00067C09A /* Network */,
+				5279951A263B92FB0067C09A /* Preconditions */,
+				52799513263B55340067C09A /* Mocking */,
+				52799504263B3B210067C09A /* Direct Injection */,
 				529E0306263AECBA00933D74 /* Notification */,
 				525B78032639F91F0045DB9A /* Async */,
 				52A141982639EE2000C074E7 /* Game */,
 				52A1416B2639D1E200C074E7 /* Converter.swift */,
 				52A141972639EE0400C074E7 /* TSwizzle */,
+				52799518263B8A7C0067C09A /* PowerMonitor.swift */,
 			);
 			path = "Custom Files";
 			sourceTree = "<group>";
@@ -401,8 +466,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5279950E263B4BCF0067C09A /* ShareView.swift in Sources */,
+				52799515263B55430067C09A /* Buyer.swift in Sources */,
 				52A141A22639EE5600C074E7 /* GameError.swift in Sources */,
 				525B78052639F93B0045DB9A /* PrimeCalculator.swift in Sources */,
+				52799508263B3B430067C09A /* DIApp.swift in Sources */,
+				5279951C263B93090067C09A /* PreConUser.swift in Sources */,
+				52799512263B540D0067C09A /* CoordinatedViewController.swift in Sources */,
 				52A141372639C4CC00C074E7 /* ViewController.swift in Sources */,
 				52A1419A2639EE3200C074E7 /* Game.swift in Sources */,
 				52A141332639C4CC00C074E7 /* AppDelegate.swift in Sources */,
@@ -411,6 +481,10 @@
 				52A141352639C4CC00C074E7 /* SceneDelegate.swift in Sources */,
 				52A1418B2639E0D000C074E7 /* Project.swift in Sources */,
 				52A141902639E0FA00C074E7 /* ToDoItem.swift in Sources */,
+				52799519263B8A7C0067C09A /* PowerMonitor.swift in Sources */,
+				52799510263B50FA0067C09A /* URLHandler.swift in Sources */,
+				52799506263B3B340067C09A /* DIUser.swift in Sources */,
+				5279951F263B94C00067C09A /* News.swift in Sources */,
 				529E0308263AECD600933D74 /* LinkedInUser.swift in Sources */,
 				52A1416C2639D1E200C074E7 /* Converter.swift in Sources */,
 			);
@@ -420,8 +494,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52799517263B55950067C09A /* MockingTests.swift in Sources */,
 				52A1414A2639C4CD00C074E7 /* TestingSwiftTests.swift in Sources */,
 				52A141812639DFD400C074E7 /* LifecycleTests.swift in Sources */,
+				5279950C263B3D9D0067C09A /* DirectInjectTests.swift in Sources */,
 				52A1417C2639D23800C074E7 /* ConvertTests.swift in Sources */,
 				52A141A72639EEF200C074E7 /* ThrowingTests.swift in Sources */,
 			);
