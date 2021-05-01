@@ -20,3 +20,7 @@
     * [Mocking](/Notes/Chapter%20Notes/CH3.md#mocking)
         * [Partial Mock](/Notes/Chapter%20Notes/CH3.md#partial-mock)
     * [Test Data](/Notes/Chapter%20Notes/CH3.md#test-data)
+4. [User Interface Testing](/Notes/Chapter%20Notes/CH4.md)
+5. [Test Driven Development](/Notes/Chapter%20Notes/CH5.md)
+6. [Continous Integration](/Notes/Chapter%20Notes/CH6.md)
+7. [Tips](/Notes/Chapter%20Notes/CH7.md)
